@@ -91,13 +91,20 @@ typeof(5.325)
 x = 4.65
 class(x)
 
+x = 2; y = T; z = "apple";
+typeof(z)
+?typeof
+
 class(8 == 6)
 
-
+a = c(2 ,6, 3)
+b = c(4, 3, 5, 7)
+a * b
 
 #Creating Vectors
 # c is a shorthand of combine
-age <- c(23, 43, 53, 24, 61, 35, 36, 42, 20, 54)  
+age <- c(23, 43, 53, 24, 61, 35, 36, 42,
+         20, 54)  
 
 age
 
